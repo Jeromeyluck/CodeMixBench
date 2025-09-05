@@ -23,6 +23,13 @@ binations, 4 pairs for CM-TruthfulQA with 3,122
 multiple-choice instances, 4 pairs for CM-GSM8K
 with 4,367 math problems, and 3 pairs for MT with
 2,711 code-mixed sentences.
+## How to Use
+
+### Use Comment
+
+```bash
+python ./test_model.py --dataset lid_guaspa --expid lid_guaspa_all_0shot --model gpt-3.5-turbo
+```
 
 ## Dataset Details
 
