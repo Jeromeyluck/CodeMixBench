@@ -1,5 +1,11 @@
-# CodeMixBench
+# CodeMixBench: Evaluating Code-Mixing Capabilities of LLMs Across 18 Languages
 
+<p align="center">
+   📑&nbsp; <a href="https://arxiv.org/abs/2507.18791](https://arxiv.org/abs/2507.18791" target="_blank">Paper</a>
+   | 📊&nbsp; <a href="https://huggingface.co/datasets/CodeMixBench/CodeMixBench" target="_blank">HuggingFace</a>
+</p>
+
+## ℹ️ Overview
 Code-mixing is a linguistic phenomenon where multilingual speakers switch or mix two or more languages within a single utterance or conversation. 
 To evaluate LLMs’ comprehension of multilingual code-mixed texts, we introduce CodeMixBench, a benchmark comprising eight tasks across 18 languages. 
 
@@ -23,27 +29,45 @@ binations, 4 pairs for CM-TruthfulQA with 3,122
 multiple-choice instances, 4 pairs for CM-GSM8K
 with 4,367 math problems, and 3 pairs for MT with
 2,711 code-mixed sentences.
-## How to Use
 
-### Use Comment
+![Statistics of 18 languages](pics/18languages.png)
 
-```bash
-python ./test_model.py --dataset lid_guaspa --expid lid_guaspa_all_0shot --model gpt-3.5-turbo
-```
+## ⚙️ Setup
+1. Follow these steps to set up your development environment:
+   ```
+   git clone git@github.com:Jeromeyluck/CodeMixBench.git
+   cd CodeMixBench
 
-## Dataset Details
+   conda create -n CodeMixBench python=3.9
+   conda activate CodeMixBench
+   pip install -r requirements.txt
+   ```
+   
+## 🚀 Launch LocAgent
 
-### Dataset Sources
+   ```
+   python ./test_model.py \
+     --dataset lid_guaspa \
+     --expid lid_guaspa_all_0shot \
+     --model gpt-3.5-turbo \
+     --shot 5 \
+     --api sk-*********************
+     --url https://****************
+   ```
+   - `dataset`: select the dataset (e.g., `lid_gereng`, `lid_spaeng`, `ner_hineng`).
+   - `expid`: define the ID of the test, the results file will be named after this ID.
+   - `model`: the model you test. The default model is gpt-3.5-turbo.
+   - `shot`: use for few-shot test (by default it will be `1`).
+   - `api`: API Key (default key will be `OPENAI_API_KEY` defined in system path).
+   - `url`: 
 
-<!-- Provide the basic links for the dataset. -->
-
-- **Paper:** CodeMixBench: Evaluating Code-Mixing Capabilities of Language Models [More Information Needed]
 
 
-## Citation
+##📑 Cite US
 
 <!-- If there is a paper or blog post introducing the dataset, the APA and Bibtex information for that should go in this section. -->
 
 **BibTeX:**
 
-[More Information Needed]
+  ```
+  ```
