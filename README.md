@@ -2,7 +2,7 @@
 
 <p align="center">
    📑&nbsp; <a href="https://arxiv.org/abs/2507.18791](https://arxiv.org/abs/2507.18791" target="_blank">Paper</a>
-   | 🤗&nbsp; <a href="https://huggingface.co/datasets/CodeMixBench/CodeMixBench" target="_blank">HuggingFace</a>
+      |    🤗&nbsp; <a href="https://huggingface.co/datasets/CodeMixBench/CodeMixBench" target="_blank">HuggingFace</a>
 </p>
 
 ## ℹ️ Overview
