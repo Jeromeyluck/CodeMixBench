@@ -58,7 +58,7 @@ and few-shot learning can improve LLM performance on code-mixing datasets.
      --expid lid_guaspa_all_0shot \
      --model gpt-3.5-turbo \
      --shot 5 \
-     --api sk-*********************
+     --api sk-********************* \
      --url https://****************
    ```
    - `dataset`: select the dataset (e.g., `lid_gereng`, `lid_spaeng`, `ner_hineng`).
