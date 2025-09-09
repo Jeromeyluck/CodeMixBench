@@ -63,7 +63,7 @@ with 4,367 math problems, and 3 pairs for MT with
 
 
 
-##📑 Cite US
+## 📑 Cite US
 
 <!-- If there is a paper or blog post introducing the dataset, the APA and Bibtex information for that should go in this section. -->
 
