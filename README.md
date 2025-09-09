@@ -24,13 +24,20 @@ The datasets encompass 12 languages from six families: Germanic
 Afro-Asiatic (ar), Indo-Aryan (hi, bn, mr, ne), and
 Dravidian (ta).
 We synthesized 11 code-mixed language pairs for CM-
-MMLU(based on the MMLU) with 12,156 question-option-answer com-
-binations, 4 pairs for CM-TruthfulQA with 3,122
+MMLU(based on the MMLU) with 12,156 question-option-answer combinations, 4 pairs for CM-TruthfulQA with 3,122
 multiple-choice instances, 4 pairs for CM-GSM8K
 with 4,367 math problems, and 3 pairs for MT with
 2,711 code-mixed sentences.
 
-![Statistics of 18 languages](pics/18languages.png)
+![Statistics of 18 languages](pics/18_languages.png)
+
+We evaluate three families of LLMs on
+CodeMixBench, revealing consistent underperformance across all models on code-mixing
+datasets involving language pairs from different language families. However, enhancements
+in training data size, model scale, post-training,
+and few-shot learning can improve LLM performance on code-mixing datasets.
+![Main evaluation results on CodeMixBench](pics/main_result.png)
+
 
 ## ⚙️ Setup
 1. Follow these steps to set up your development environment:
