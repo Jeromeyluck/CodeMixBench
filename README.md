@@ -56,10 +56,10 @@ with 4,367 math problems, and 3 pairs for MT with
    ```
    - `dataset`: select the dataset (e.g., `lid_gereng`, `lid_spaeng`, `ner_hineng`).
    - `expid`: define the ID of the test, the results file will be named after this ID.
-   - `model`: the model you test. The default model is gpt-3.5-turbo.
+   - `model`: the model you test. The default model is `gpt-3.5-turbo`.
    - `shot`: use for few-shot test (by default it will be `1`).
    - `api`: API Key (default key will be `OPENAI_API_KEY` defined in system path).
-   - `url`: 
+   - `url`: API function provider's URL.
 
 
 
