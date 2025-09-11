@@ -1,8 +1,17 @@
-# CodeMixBench: Evaluating Code-Mixing Capabilities of LLMs Across 18 Languages
+# [EMNLP'25] CodeMixBench: Evaluating Code-Mixing Capabilities of LLMs Across 18 Languages
 
 <p align="center">
-   📑&nbsp; <a href="https://arxiv.org/abs/2507.18791" target="_blank">Paper</a>
-      &nbsp;|&nbsp; 🤗&nbsp; <a href="https://huggingface.co/datasets/CodeMixBench/CodeMixBench" target="_blank">HuggingFace</a>
+     <a href="https://huggingface.co/datasets/CodeMixBench/CodeMixBench" target="_blank">
+      <img alt="Huggingface" src="https://img.shields.io/badge/🤗-Huggingface-blue" />
+   </a>
+        
+  <a href="https://arxiv.org/abs/2507.18791" target="_blank">
+      <img alt="Paper" src="https://img.shields.io/badge/📜-Paper-purple" />
+   </a>
+  <a href="https://2025.emnlp.org/" target="_blank">
+      <img alt="EMNLP 2025" src="https://img.shields.io/badge/Proceedings-EMNLP2025-blue" />
+   </a>
+
 </p>
 
 ## ℹ️ Overview
@@ -77,4 +86,13 @@ and few-shot learning can improve LLM performance on code-mixing datasets.
 **BibTeX:**
 
   ```
+   @misc{yang2025codemixbenchevaluatingcodemixingcapabilities,
+      title={CodeMixBench: Evaluating Code-Mixing Capabilities of LLMs Across 18 Languages}, 
+      author={Yilun Yang and Yekun Chai},
+      year={2025},
+      eprint={2507.18791},
+      archivePrefix={arXiv},
+      primaryClass={cs.CL},
+      url={https://arxiv.org/abs/2507.18791}, 
+}
   ```
